@@ -82,7 +82,10 @@ a.logo:active {
   top: 370px;
 }
 
-
+.map {
+  margin-top: 20px;
+  max-width: 1070px;
+}
 
 
 .App-link {

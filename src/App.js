@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import IntroText from './components/Introtext/IntroText';
 import Card from './components/Card/Card';
@@ -14,6 +13,7 @@ class App extends Component {
       
       locations: {
               shanghai: {
+                    selectted: true,
                     mainimg: '/images/pearltowerMain.png',
                     mainCity: "Shanghai",
                     mainLandmark: "Pearl Tower",
@@ -22,75 +22,222 @@ class App extends Component {
                     foods: [
                               {
                                 money: "$$$",
-                                name: "something 1",
-                                description: "somethingaosfosehfoiw",
-                                foodpic: "jpg"
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
                                 
                               },
                               {
-                                money: "$$$",
-                                name: "something 2",
-                                description: "somethingaosfosehfoiw"
+                                money: "$$",
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
                               },
                               {
-                                money: "$$$",
-                                name: "something 3",
-                                description: "somethingaosfosehfoiw"
+                                money: "$",
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
                               },
                               {
-                                money: "$$$",
-                                name: "something 4",
-                                description: "somethingaosfosehfoiw"
+                                money: "$$$$$",
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
                               }
                             ] 
                       },
               malaysia: {
+                selected: false,
                 mainimg: '/images/twintowerMain.png',
                 mainCity: "Malaysia",
                 mainLandmark: "Petronas Twin Towers",
-                mainDes: "The 88-storey twin toppers hold the title for 12th tallest skyscrapers in the world, and to date are the only twin towers to do so, making them number one in that category. The iconic Skybridge that links the two together acts as a tendon of sorts, keeping the sisters from swaying too much during high winds. The towers were constructed during the administration of the fourth Prime Minister of Malaysia, Dr Mahathir Mohamad, who set the building of each tower as a competition between the constructors from Korea and Japan. The Koreans won, finishing both their part and the Skybridge a week earlier. Like most other notable buildings, the towers sport a prominent Islamic influence; their bases are shaped to be of eight-pointed stars.",
+                mainDes: "The 88-storey twin toppers hold the title for 12th tallest skyscrapers in the world, and to date are the only twin towers to do so, making them number one in that category. The iconic Skybridge that links the two together acts as a tendon of sorts, keeping the sisters from swaying too much during high winds. ",
                 mapImage: "/images/malaysiaMap.png",
                 foods: [
                           {
                             money: "$$$",
-                            name: "something 1",
-                            description: "somethingaosfosehfoiw",
-                            foodpic: "jpg"
+                            name: "Sushi Fuku ",
+                            description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                            foodpic: "/images/sushi.jpg"
                             
                           },
                           {
                             money: "$$$",
-                            name: "something 2",
-                            description: "somethingaosfosehfoiw"
+                            name: "Sushi Fuku 1",
+                            description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                            foodpic: "/images/sushi.jpg"
                           },
                           {
                             money: "$$$",
-                            name: "something 3",
-                            description: "somethingaosfosehfoiw"
+                            name: "Sushi Fuku 2",
+                            description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                            foodpic: "/images/sushi.jpg"
                           },
                           {
                             money: "$$$",
-                            name: "something 4",
-                            description: "somethingaosfosehfoiw"
+                            name: "Sushi Fuku 3",
+                            description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                            foodpic: "/images/sushi.jpg"
                           }
                         ] 
                   },
+
+                  italy: {
+                    mainimg: '/images/leaningmain.png',
+                    mainCity: "Italy",
+                    mainLandmark: "Leaning Tower of Pisa",
+                    mainDes: "The tower's tilt began during construction in the 12th century, caused by an inadequate foundation on ground too soft on one side to properly support the structure's weight. The tilt increased in the decades before the structure was completed in the 14th century. It gradually increased until the structure was stabilized (and the tilt partially corrected) by efforts in the late 20th and early 21st centuries.",
+                    mapImage: "/images/italyMap.png",
+                    foods: [
+                              {
+                                money: "$$$",
+                                name: "Sushi Fuku italy",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
+                                
+                              },
+                              {
+                                money: "$$$",
+                                name: "Sushi Fuku italy 2",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
+                              },
+                              {
+                                money: "$$$",
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
+                              },
+                              {
+                                money: "$$$",
+                                name: "Sushi Fuku",
+                                description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                foodpic: "/images/sushi.jpg"
+                              }
+                            ] 
+                      },
+
+                      ny: {
+                        mainimg: '/images/empirestate.png',
+                        mainCity: "New York",
+                        mainLandmark: "Empire State Building",
+                        mainDes: "The tower's tilt began during construction in the 12th century, caused by an inadequate foundation on ground too soft on one side to properly support the structure's weight. The tilt increased in the decades before the structure was completed in the 14th century. It gradually increased until the structure was stabilized (and the tilt partially corrected) by efforts in the late 20th and early 21st centuries.",
+                        mapImage: "/images/nyMap.png",
+                        foods: [
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                    
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  }
+                                ] 
+                          },
+
+                      sf: {
+                        mainimg: '/images/bridge.png',
+                        mainCity: "San Francisco",
+                        mainLandmark: "Bridge",
+                        mainDes: "The tower's tilt began during construction in the 12th century, caused by an inadequate foundation on ground too soft on one side to properly support the structure's weight. The tilt increased in the decades before the structure was completed in the 14th century. It gradually increased until the structure was stabilized (and the tilt partially corrected) by efforts in the late 20th and early 21st centuries.",
+                        mapImage: "/images/sfMap.png",
+                        foods: [
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                    
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  },
+                                  {
+                                    money: "$$$",
+                                    name: "Sushi Fuku",
+                                    description: "Chopped smoked salmon, half spicy tuna,  half spicy crab , avocado, cucumber, jalapenos, mango, with spicy mayo.all in a bowl, with white rice, brown rice, mixed greens, or red quinoa (+$.100)",
+                                    foodpic: "/images/sushi.jpg"
+                                  }
+                                ] 
+                          },
 
       },
   }
 
   image1clickhandler = () => {
-    this.setState({currentLocation: "malaysia"})
+    this.setState({currentLocation: "italy"});
+  }
+
+  image2clickhandler = () => {
+    this.setState({currentLocation: "malaysia"});
+  }
+
+  image3clickhandler = () => {
+    this.setState({currentLocation: "shanghai"});
+  }
+
+  image4clickhandler = () => {
+    this.setState({currentLocation: "ny"});
+  }
+
+  image5clickhandler = () => {
+    this.setState({currentLocation: "sf"});
   }
 
   render() {
 
     var selected;
+    var italy = <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="one" alt={"unselected box"} onClick={this.image1clickhandler}/>
+    var malaysia = <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="two" alt={"unselected box"} onClick={this.image2clickhandler}/>
+    var shanghai = <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="three" alt={"unselected box"} onClick={this.image3clickhandler}/>
+    var ny = <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="four" alt={"unselected box"} onClick={this.image4clickhandler}/>
+    var sf = <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="five" alt={"unselected box"} onClick={this.image5clickhandler}/>
     if(this.state.currentLocation === "shanghai"){
       selected = this.state.locations.shanghai;
+      shanghai = <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="three" alt={"selected box"}/>
     }
     else if(this.state.currentLocation  === "malaysia"){
       selected = this.state.locations.malaysia;
+      malaysia = <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="two" alt={"unselected box"} />
+    }
+    else if(this.state.currentLocation  === "sf"){
+      selected = this.state.locations.sf;
+      sf = <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="five" alt={"unselected box"} />
+    }
+    else if(this.state.currentLocation  === "ny"){
+      selected = this.state.locations.ny;
+      ny = <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="four" alt={"unselected box"} />
+    }
+    else if(this.state.currentLocation === "italy"){
+      selected = this.state.locations.italy;
+      italy = <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="one" alt={"unselected box"} />
     }
 
     return (
@@ -102,24 +249,38 @@ class App extends Component {
         </header>
         <body>
           <img ref="images" src={process.env.PUBLIC_URL + '/images/base.jpg'} className="bannerImg" alt={"banner image of landmarks"}/>
-          <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="one" alt={"unselected box"} />
-          <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="two" alt={"unselected box"} onClick={this.image1clickhandler}/>
-          <img ref="images" src={process.env.PUBLIC_URL + '/images/redRect.png'} className="redRect" id="three" alt={"selected box"}/>
-          <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="four" alt={"unselected box"}/>
-          <img ref="images" src={process.env.PUBLIC_URL + '/images/blueRect.png'} className="blueRect" id="five" alt={"unselected box"} 
-            />
+          {italy}
+          {malaysia}
+          {shanghai}
+          {ny}
+          {sf}
           <IntroText 
             picture={selected.mainimg}
             city={selected.mainCity}
-            landmark={this.state.locations.shanghai.mainLandmark}
-            des={this.state.locations.shanghai.mainDes}/>
-          <img ref="images" src={process.env.PUBLIC_URL + this.state.locations.shanghai.mapImage} className="bannerImg" alt={"banner image of landmarks"}/>
+            landmark={selected.mainLandmark}
+            des={selected.mainDes}/>
+          <img ref="images" width="1320px" src={process.env.PUBLIC_URL + selected.mapImage} className="map" alt={"map"}/>
+          <h3>Highly Recommended Food around this area: </h3>
           <Card
-             picture={this.state.locations.shanghai.foods[0].foodpic}
-             title={this.state.locations.shanghai.foods[0].name} />
+            foodpic={selected.foods[0].foodpic}
+            title={selected.foods[0].name} 
+            money={selected.foods[0].money}
+            description={selected.foods[0].description}/>
           <Card
-             picture={this.state.locations.shanghai.foods[1].foodpic}
-             title={this.state.locations.shanghai.foods[1].name} />
+            foodpic={selected.foods[1].foodpic}
+            title={selected.foods[1].name} 
+            money={selected.foods[1].money}
+            description={selected.foods[1].description}/>
+          <Card
+            foodpic={selected.foods[2].foodpic}
+            title={selected.foods[2].name} 
+            money={selected.foods[2].money}
+            description={selected.foods[2].description}/>
+          <Card
+            foodpic={selected.foods[3].foodpic}
+            title={selected.foods[3].name} 
+            money={selected.foods[3].money}
+            description={selected.foods[3].description}/>
           
         </body>
       </div>

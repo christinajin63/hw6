@@ -1,3 +1,36 @@
 .box {
-    
+    height: 380px;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    width: 20%;
+
+    box-shadow: 4px 4px 18px #ccc;
+    margin-bottom: 20px;
+}
+
+.money {
+    color: #4E88D6;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+}
+
+.foodname{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.des {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .3px;
+    line-height: 18px;
+    margin-top: 8px;
 }
