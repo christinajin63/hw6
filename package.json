@@ -23,5 +23,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "deploy" : "npm run build&&gh-pages -d build",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+
 }
