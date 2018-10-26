@@ -1,0 +1,46 @@
+.card{
+    background-color: white;
+    border: .25px solid black;
+    box-shadow: 5px 4px 18px #FFD6D6;
+    padding: 1%;
+    border-radius: 17pt;
+    height: 180px;
+
+}
+
+.picture {
+    float: left;
+    padding-right: 5%;
+    padding-left: 1.4%;
+    padding-top: 1.2%;
+
+}
+
+.about {
+    float: left;
+    width: 48%;
+    
+}
+
+.city {
+    color: #4E88D6;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+}
+
+.landmark {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .3px;
+    line-height: 18px;
+    margin-top: 8px;
+}

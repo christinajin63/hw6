@@ -1,0 +1,99 @@
+.App {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background-color: white;
+  max-width: 1032px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo {
+  font-size: 1.2em;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+}
+
+a.logo:link {
+  color: #6C6C6C;
+  text-decoration: none;
+}
+
+a.logo:visited {
+  color: #6C6C6C;
+  text-decoration: none;
+}
+
+a.logo:hover {
+  color: #6C6C6C;
+  text-decoration: none;
+}
+
+a.logo:active {
+  color: #6C6C6C;
+  text-decoration: none;
+} 
+
+.bannerImg {
+  width: 100%;
+  max-width: 1032px;
+}
+
+.redRect {
+  position: absolute;
+  float: left;
+}
+
+.blueRect {
+  position: absolute;
+  float: left;
+}
+
+#one{
+  left: 18.5%;
+  top: 370px;
+}
+
+#two {
+  left: 30%;
+  top: 350px;
+}
+
+#three {
+  left: 47%;
+  top: 377px;
+}
+
+#four {
+  left: 56%;
+  top: 375px;
+}
+
+#five {
+  left: 86%;
+  top: 370px;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
