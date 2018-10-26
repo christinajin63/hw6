@@ -17,6 +17,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://christinajin63.github.io/hw6",
   "browserslist": [
     ">0.2%",
     "not dead",
